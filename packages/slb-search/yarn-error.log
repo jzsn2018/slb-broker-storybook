@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\slb0634\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add async-validator@1.11.5 / npm install async-validator@1.11.5
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\slb0634\AppData\Local\Microsoft\WindowsApps;C:\Users\slb0634\AppData\Roaming\npm;D:\Timothy\app\Microsoft VS Code\bin;D:\Timothy\app\PhpStorm 2020.2.3\bin;D:\Timothy\app\;D:\Timothy\app\Fiddler;C:\Users\slb0634\AppData\Roaming\npm\node_modules;D:\Timothy\app\WebStorm 2020.3.2\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, lstat 'D:\pagefile.sys'
+
+npm manifest: 
+  {
+    "name": "slb-search",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "author": "",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "main": "search.stories.js",
+    "dependencies": {
+      "element-ui": "^2.4.5"
+    },
+    "devDependencies": {
+      "babel-plugin-component": "^1.1.1",
+      "node-sass": "^4.14.1",
+      "sass-loader": "^10.2.0",
+      "vue-cli-plugin-element": "~1.0.1"
+    },
+    "license": "ISC",
+    "babel": {
+      "plugins": [
+        [
+          "component",
+          {
+            "libraryName": "element-ui",
+            "styleLibraryName": "theme-chalk"
+          }
+        ]
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

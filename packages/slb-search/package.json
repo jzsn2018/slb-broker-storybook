@@ -1,0 +1,20 @@
+{
+  "name": "slb-search",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "search.stories.js",
+  "dependencies": {
+    "element-ui": "2.13.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.2.3",
+    "babel-plugin-component": "^1.1.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.2.0"
+  },
+  "license": "ISC"
+}
