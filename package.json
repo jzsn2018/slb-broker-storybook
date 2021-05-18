@@ -1,6 +1,6 @@
 {
-  "private":true,
-  "workspaces":[
+  "private": true,
+  "workspaces": [
     "packages/*"
   ],
   "name": "storybook-demo",
@@ -10,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lerna": "lerna publish"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,7 @@
     "@storybook/addon-links": "^6.2.9",
     "@storybook/vue": "^6.2.9",
     "babel-loader": "^8.2.2",
+    "lerna": "^4.0.0",
     "vue-loader": "^15.9.7",
     "vue-template-compiler": "^2.6.12"
   },
