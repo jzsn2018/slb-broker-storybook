@@ -5,10 +5,13 @@ import vue from "rollup-plugin-vue";
 import postcss from "rollup-plugin-postcss";
 import { terser } from "rollup-plugin-terser";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
+// 解决element-ui commonjs包的问题
+import commonjs from '@rollup/plugin-commonjs';
 
 const isDev = process.env.NODE_ENV !== "production";
 // 公共插件配置
 const plugins = [
+  commonjs(),
   vue({ css: true, compileTemplate: true }),
   json(),
   nodeResolve(),
