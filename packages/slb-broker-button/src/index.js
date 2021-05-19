@@ -1,8 +1,6 @@
 import Vue from 'vue'
-
-import SlbButton from "./Button/index.js";
-
-new Vue({
-  el:"#app",
-  render:(h)=>h(SlbButton)
-})
+import { Button } from 'element-ui'
+import "element-ui/lib/theme-chalk/index.css";
+Vue.use(Button);
+import MyButton from "./index.vue";
+export default MyButton;

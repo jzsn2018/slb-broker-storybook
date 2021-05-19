@@ -20,5 +20,5 @@ Vue.use(Cascader);
 Vue.use(DatePicker);
 
 import "element-ui/lib/theme-chalk/index.css";
-import  SlbSearchGroup from "./index.vue";
+import  SlbSearchGroup from "./search.vue";
 export default SlbSearchGroup;

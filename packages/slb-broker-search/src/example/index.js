@@ -1,5 +1,5 @@
 import Vue from "vue";
-import SlbSearchGroup from "./slb-search-group/index.js";
+import SlbSearchGroup from "../index.js";
 
 new Vue({
   el: "#app",

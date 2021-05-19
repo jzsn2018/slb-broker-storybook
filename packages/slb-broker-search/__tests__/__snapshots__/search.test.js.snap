@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`slb-search-group slb-search-group-snapshot 1`] = `
+<div
+  class="com-search"
+  type="password"
+  value="admin"
+>
+  <el-form
+    inline="true"
+    label-position="left"
+    label-width="88px"
+    model="[object Object]"
+    rules="[object Object]"
+  >
+     
+    <el-button
+      size="small"
+      type="primary"
+    >
+      筛选
+    </el-button>
+     
+  </el-form>
+</div>
+`;
