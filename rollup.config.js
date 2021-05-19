@@ -34,10 +34,16 @@ module.exports = fs.readdirSync(root)
     input:path.resolve(root,item,'index.js'),
     output:[
       {
-        export:'auto',
-        file:path.resolve(root,item,pkg.name),
+        exports:'auto',
+        file:path.resolve(root,item,pkg.main),
         format:"cjs"
+      },
+      {
+        exports:'auto',
+        file:path.resolve(root,item,pkg.module),
+        format:"es"
       }
-    ]
+    ],
+    plugins
   }
 })
