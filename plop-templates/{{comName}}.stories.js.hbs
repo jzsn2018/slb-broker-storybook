@@ -1,0 +1,24 @@
+import {{packageName}} from "./src/{{comName}}/index.js";
+
+export default {
+  title: "公共组件库/{{packageName}}",
+  component: {{packageName}},
+};
+const Template = (args, { argTypes }) => ({
+  props: Object.keys(argTypes),
+  components: { {{packageName}} },
+  data() {
+    return {
+    };
+  },
+  methods: {
+
+  },
+  template:
+    '<{{comName}} />',
+});
+
+export const 完整参考示例 = Template.bind({});
+完整参考示例.args = {
+
+};

@@ -3,7 +3,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "name": "storybook-demo",
+  "name": "slb-broker-storybook",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,8 @@
     "lerna": "lerna publish",
     "build-all-packages:dev": "cross-env NODE_ENV=development rollup -c",
     "build-all-packages:prod": "cross-env NODE_ENV=production rollup -c",
-    "clean": "lerna clean"
+    "clean": "lerna clean",
+    "plop":"plop"
   },
   "keywords": [],
   "author": "",
@@ -35,6 +36,7 @@
     "cross-env": "^7.0.3",
     "jest": "^26.6.3",
     "lerna": "^4.0.0",
+    "plop": "^2.7.4",
     "postcss": "^8.2.15",
     "rimraf": "^3.0.2",
     "rollup": "^2.48.0",
