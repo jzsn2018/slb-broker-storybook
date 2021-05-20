@@ -15,7 +15,7 @@
     "build-all-packages:dev": "cross-env NODE_ENV=development rollup -c",
     "build-all-packages:prod": "cross-env NODE_ENV=production rollup -c",
     "clean": "lerna clean",
-    "plop":"plop"
+    "plop": "plop"
   },
   "keywords": [],
   "author": "",
@@ -33,6 +33,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.2",
+    "babel-plugin-component": "^1.1.1",
     "cross-env": "^7.0.3",
     "jest": "^26.6.3",
     "lerna": "^4.0.0",
