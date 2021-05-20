@@ -17,6 +17,9 @@
     "clean": "lerna clean",
     "plop": "plop"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
