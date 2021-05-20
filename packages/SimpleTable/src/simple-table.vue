@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import TableOperation from "./table-operation";
+import TableOperation from "./table-operation.vue";
 
 const DefaultList = [
     { type: "", name: "向上", actionType: "UP", disabled: false },
