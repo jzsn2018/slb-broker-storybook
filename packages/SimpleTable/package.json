@@ -7,6 +7,9 @@
     "clean-dist": "rimraf dist",
     "build": "rollup -c"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "dependencies": {
@@ -19,5 +22,5 @@
     "sass-loader": "^10.2.0"
   },
   "license": "ISC",
-  "gitHead": "a1f270f764637ee4fce7e05777103a4ca835a5e7"
+  "gitHead": "7151b6d88cbf2e6f00a912e1c7c9899d6fd9c0ae"
 }
