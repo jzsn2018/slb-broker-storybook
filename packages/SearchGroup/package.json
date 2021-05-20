@@ -19,5 +19,6 @@
     "node-sass": "^4.14.1",
     "sass-loader": "^10.2.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "ef35ceba05579891370b5c0d94dd6ed3a83559f3"
 }
